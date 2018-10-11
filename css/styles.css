@@ -1,0 +1,18 @@
+.single-item{
+background-color: #ADD8E6;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image, #boomerang{
+  max-width: 100%;
+  height: auto;
+}
+
+h1, p{
+  text-align: center;
+}
