@@ -1,21 +1,7 @@
-.single-item{
-background-color: #ADD8E6;
-}
+/* BASE QUIZ STYLES */
+/* These styles ensure that the necessary elements are hidden for toggling */
 
-.flex{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#image, #boomerang{
-  max-width: 100%;
-  height: auto;
-}
-
-h1, p{
-  text-align: center;
-}
+/* DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING!! */
 
 .startQuiz,
 .nextQuestion,
