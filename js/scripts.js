@@ -70,15 +70,16 @@ var quizJSON = {
     ]
 }
 
-//Tooltip
-
 $(function () {
     $('#slickQuiz').slickQuiz({
         // options
     });
 });
 
-/*
+//Image Map Resize
+$('map').imageMapResize();
+
+//Tooltip
 var image = document.getElementById('target');
 var tooltip = document.getElementById('content');
 
@@ -93,4 +94,3 @@ image.addEventListener('mouseout', function(){
   tooltip.style.opacity = 0;
   tooltip.style.transition = '0.4s linear';
 });
-*/

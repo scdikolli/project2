@@ -1,5 +1,6 @@
-.single-item{
-background-color: #ADD8E6;
+/* Global Styles */
+body{
+  background-color: #962206;
 }
 
 .flex{
@@ -13,14 +14,32 @@ background-color: #ADD8E6;
   height: auto;
 }
 
-h1, p{
+h1, h2, p {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Bungee Inline', cursive;
+  color: #f2ef7e;
+}
+
+h2{
+  font-size: 15px;
+  color: #fff;
 }
 
 p{
   font-size: 30px;
 }
 
+/* Slick Slider */
+.single-item{
+background-color: #87cefa;
+}
+
+/* Slick Quiz */
 .startQuiz,
 .nextQuestion,
 .backToQuestion,
@@ -45,6 +64,11 @@ ol.questions li,
 ul.answers li,
 ul.responses li {
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quizDescription, .startQuiz{
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Accessibility */
@@ -60,13 +84,24 @@ ul.responses li {
 }
 
 .quizArea{
-  background-color:pink;
+  background-color:#422ad1;
+  padding: 50px;
+  font-size: 20px;
+  color: #fff;
 }
-/*
+
+/* Image Map Resize */
 #content{
   opacity: 0;
   position: absolute;
   top:15%;
   left:25%;
   max-width: 30%;
-}*/
+  background-color: pink;
+}
+
+#target{
+  width: 300px;
+  height: 400px;
+  background-color: red;
+}
