@@ -90,6 +90,10 @@ ul.responses li {
   color: #fff;
 }
 
+.quizDescription, .startQuiz{
+  color: #fff;
+}
+
 /* Image Map Resize */
 #content{
   opacity: 0;

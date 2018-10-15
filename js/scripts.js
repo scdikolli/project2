@@ -79,6 +79,7 @@ $(function () {
 //Image Map Resize
 $('map').imageMapResize();
 
+
 //Tooltip
 var image = document.getElementById('target');
 var tooltip = document.getElementById('content');
