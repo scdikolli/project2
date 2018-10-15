@@ -17,6 +17,10 @@ h1, p{
   text-align: center;
 }
 
+p{
+  font-size: 30px;
+}
+
 .startQuiz,
 .nextQuestion,
 .backToQuestion,
@@ -54,3 +58,15 @@ ul.responses li {
     position: absolute;
     width: 1px;
 }
+
+.quizArea{
+  background-color:pink;
+}
+/*
+#content{
+  opacity: 0;
+  position: absolute;
+  top:15%;
+  left:25%;
+  max-width: 30%;
+}*/
