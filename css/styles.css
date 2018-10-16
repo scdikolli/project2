@@ -31,7 +31,11 @@ h2{
 }
 
 p{
-  font-size: 30px;
+  font-size: 18px;
+  color: #962206;
+  text-align: left;
+  line-height: 30px;
+  padding: 35px;
 }
 
 /* Slick Slider */
@@ -94,18 +98,6 @@ ul.responses li {
   color: #fff;
 }
 
-/* Image Map Resize */
-#content{
-  opacity: 0;
-  position: absolute;
-  top:15%;
-  left:25%;
-  max-width: 30%;
-  background-color: pink;
-}
-
-#target{
-  width: 300px;
-  height: 400px;
-  background-color: red;
+#content1, #content2, #content3, #content4, #content5{
+  background-color:#f2ef7e;
 }

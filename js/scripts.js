@@ -81,8 +81,8 @@ $('map').imageMapResize();
 
 
 //Tooltip
-var image = document.getElementById('target');
-var tooltip = document.getElementById('content');
+var image = document.getElementById('target1');
+var tooltip = document.getElementById('content1');
 
 image.addEventListener('mouseenter', function(){
   console.log('testing tooltip');
