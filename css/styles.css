@@ -9,7 +9,7 @@ body{
   justify-content: center;
 }
 
-#image, #boomerang{
+#image1, #image2, #image3, #image4, #image5, #boomerang{
   max-width: 100%;
   height: auto;
 }
@@ -31,7 +31,7 @@ h2{
 }
 
 p{
-  font-size: 18px;
+  font-size: 15px;
   color: #962206;
   text-align: left;
   line-height: 30px;
@@ -98,6 +98,15 @@ ul.responses li {
   color: #fff;
 }
 
+/* Tooltip */
 #content1, #content2, #content3, #content4, #content5{
   background-color:#f2ef7e;
+  opacity: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#content1{
+  opacity: 0;
+  margin-left: 10%;
+  margin-right: 10%;
 }

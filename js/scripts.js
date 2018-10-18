@@ -81,17 +81,77 @@ $('map').imageMapResize();
 
 
 //Tooltip
-var image = document.getElementById('target1');
-var tooltip = document.getElementById('content1');
+var image1 = document.getElementById('target1');
+var tooltip1 = document.getElementById('content1');
 
-image.addEventListener('mouseenter', function(){
+image1.addEventListener('mouseenter', function(){
   console.log('testing tooltip');
-  tooltip.style.opacity = 1;
-  tooltip.style.transition = '0.4s linear';
+  tooltip1.style.opacity = 1;
+  tooltip1.style.transition = '0.4s linear';
 });
 
-image.addEventListener('mouseout', function(){
+image1.addEventListener('mouseout', function(){
   console.log('testing tooltip');
-  tooltip.style.opacity = 0;
-  tooltip.style.transition = '0.4s linear';
+  tooltip1.style.opacity = 0;
+  tooltip1.style.transition = '0.4s linear';
+});
+
+var image2 = document.getElementById('target2');
+var tooltip2 = document.getElementById('content2');
+
+image2.addEventListener('mouseenter', function(){
+  console.log('testing tooltip2');
+  tooltip2.style.opacity = 1;
+  tooltip2.style.transition = '0.4s linear';
+});
+
+image2.addEventListener('mouseout', function(){
+  console.log('testing tooltip2');
+  tooltip2.style.opacity = 0;
+  tooltip2.style.transition = '0.4s linear';
+});
+
+var image3 = document.getElementById('target3');
+var tooltip3 = document.getElementById('content3');
+
+image3.addEventListener('mouseenter', function(){
+  console.log('testing tooltip3');
+  tooltip3.style.opacity = 1;
+  tooltip3.style.transition = '0.4s linear';
+});
+
+image3.addEventListener('mouseout', function(){
+  console.log('testing tooltip3');
+  tooltip3.style.opacity = 0;
+  tooltip3.style.transition = '0.4s linear';
+});
+
+var image4 = document.getElementById('target4');
+var tooltip4 = document.getElementById('content4');
+
+image4.addEventListener('mouseenter', function(){
+  console.log('testing tooltip4');
+  tooltip4.style.opacity = 1;
+  tooltip4.style.transition = '0.4s linear';
+});
+
+image4.addEventListener('mouseout', function(){
+  console.log('testing tooltip4');
+  tooltip4.style.opacity = 0;
+  tooltip4.style.transition = '0.4s linear';
+});
+
+var image5 = document.getElementById('target5');
+var tooltip5 = document.getElementById('content5');
+
+image5.addEventListener('mouseenter', function(){
+  console.log('testing tooltip5');
+  tooltip5.style.opacity = 1;
+  tooltip5.style.transition = '0.4s linear';
+});
+
+image5.addEventListener('mouseout', function(){
+  console.log('testing tooltip5');
+  tooltip5.style.opacity = 0;
+  tooltip5.style.transition = '0.4s linear';
 });
